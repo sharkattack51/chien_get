@@ -1,7 +1,6 @@
 ﻿#coding:utf-8
 
 from selenium import webdriver
-from BeautifulSoup import BeautifulSoup
 
 PHANTOMJS_PATH = "C:\\Program Files (x86)\\phantomjs-2.0.0-windows\\bin\\phantomjs.exe"
 driver = webdriver.PhantomJS(executable_path=PHANTOMJS_PATH)
